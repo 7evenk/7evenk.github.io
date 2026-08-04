@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="description" content="Kurs-URLs und JSON-Pfade von OnVista direkt für Portfolio Performance übernehmen – kostenlos, lokal und ohne Datenerhebung.">
+  <meta property="og:title" content="onvista Stock URL Finder für Portfolio Performance">
+  <meta property="og:description" content="Historische OnVista-Kursdaten einfacher in Portfolio Performance nutzen.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://7evenk.github.io/de/onvista.html">
+  <meta property="og:image" content="https://7evenk.github.io/images/screenshot_1280x800.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://7evenk.github.io/de/onvista.html">
+  <link rel="alternate" hreflang="en" href="https://7evenk.github.io/onvista.html">
+  <link rel="alternate" hreflang="de" href="https://7evenk.github.io/de/onvista.html">
+  <link rel="alternate" hreflang="x-default" href="https://7evenk.github.io/onvista.html">
+  <title>onvista Stock URL Finder für Portfolio Performance</title>
+  <link rel="icon" href="../images/icon_128x128.png">
+  <link rel="stylesheet" href="../styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "onvista Stock URL Finder",
+    "operatingSystem": "Chrome",
+    "applicationCategory": "FinanceApplication",
+    "description": "Zeigt OnVista-Kurs-URLs und die für Portfolio Performance benötigten JSON-Pfade direkt im Browser an.",
+    "url": "https://7evenk.github.io/de/onvista.html",
+    "downloadUrl": "https://chromewebstore.google.com/detail/onvista-stock-url-finder/bkcokclmgdcggjncokodfgkhalhaplal",
+    "isAccessibleForFree": true,
+    "author": { "@type": "Person", "name": "7evenk", "url": "https://github.com/7evenk" }
+  }
+  </script>
+</head>
+<body class="onvista-page">
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <header class="site-header">
+    <a class="brand" href="onvista.html" aria-label="onvista Stock URL Finder Startseite">
+      <img src="../images/icon_128x128.png" alt="" width="36" height="36">
+      <span>onvista Stock URL Finder</span>
+    </a>
+    <nav aria-label="Hauptnavigation">
+      <a class="nav-home" href="index.html">Alle Tools</a>
+      <a href="#funktion">So funktioniert’s</a>
+      <a href="#datenschutz">Datenschutz</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-github" href="https://github.com/7evenk/OnVistaJsonStockUrlFinder" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      <a class="language-link" href="../onvista.html" lang="en" hreflang="en">EN</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero onvista-hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Kostenlose Chrome-Erweiterung</p>
+        <h1>Kursdaten finden.<br><em>Portfolio pflegen.</em></h1>
+        <p class="hero-lead">Übernimm die Kurs-URL und die benötigten JSON-Pfade direkt von OnVista in Portfolio Performance – ohne manuelles Suchen im Netzwerkverkehr.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://chromewebstore.google.com/detail/onvista-stock-url-finder/bkcokclmgdcggjncokodfgkhalhaplal" target="_blank" rel="noreferrer">＋ Zu Chrome hinzufügen</a>
+          <a class="button button-secondary" href="#funktion">Funktionsweise ansehen <span aria-hidden="true">↓</span></a>
+        </div>
+        <ul class="trust-list" aria-label="Vorteile"><li>Kein Konto</li><li>Keine Datenerhebung</li><li>Open Source</li></ul>
+      </div>
+      <div class="hero-visual onvista-visual">
+        <div class="data-card">
+          <div class="data-card-head"><span>OnVista · Historische Kurse</span><i>Aktiv</i></div>
+          <div class="chart"><b></b><b></b><b></b><b></b><b></b><svg viewBox="0 0 500 150" role="img" aria-label="Abstrakter Kursverlauf"><polyline points="0,118 45,105 90,112 135,78 180,92 225,57 270,66 315,31 360,45 405,20 455,37 500,8"/></svg></div>
+          <div class="url-dialog"><small>Portfolio Performance</small><strong>Historische Kurse konfigurieren</strong><label>Kurs-URL <code>https://api.onvista.de/...</code></label><label>Datumspfad <code>$.datetimeLast[*]</code></label><label>Kurspfad <code>$.last[*]</code></label><button type="button">Werte kopieren</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-strip" aria-label="Produktmerkmale">
+      <div><strong>Kostenlos</strong><span>Chrome-Erweiterung</span></div>
+      <div><strong>Direkt</strong><span>Auf OnVista</span></div>
+      <div><strong>0</strong><span>Erhobene Daten</span></div>
+      <div><strong>Open</strong><span>Source Code</span></div>
+    </section>
+
+    <section class="section demo-section" id="funktion">
+      <div class="section-heading">
+        <p class="eyebrow"><span></span> Weniger Umwege</p>
+        <h2>Von OnVista direkt zu Portfolio Performance.</h2>
+        <p>Die Erweiterung erkennt neue Chart-Anfragen und zeigt die Kurs-URL sowie die benötigten JSON-Pfade in einem übersichtlichen Dialog an. Kopieren, in Portfolio Performance einfügen, fertig.</p>
+      </div>
+      <div class="demo-frame"><img src="../images/screenshot_1280x800.png" alt="Die Erweiterung zeigt Kurs-URL und JSON-Pfade auf der OnVista-Website"></div>
+    </section>
+
+    <section class="section steps">
+      <div class="section-heading centered"><p class="eyebrow"><span></span> Drei einfache Schritte</p><h2>Historische Kurse ohne Rätselraten.</h2></div>
+      <div class="step-grid">
+        <article><b>01</b><h3>Erweiterung aktivieren</h3><p>Schalte die Funktion nur dann ein, wenn du neue Kursdaten konfigurieren möchtest.</p></article>
+        <article><b>02</b><h3>OnVista-Chart öffnen</h3><p>Wähle Wertpapier, Börsenplatz und Zeitraum. Das Startdatum wird mit der Chart-Anfrage abgeglichen.</p></article>
+        <article><b>03</b><h3>Werte übernehmen</h3><p>Kopiere Kurs-URL, Datums- und Kurspfad direkt in Portfolio Performance.</p></article>
+      </div>
+    </section>
+
+    <section class="section feature-grid">
+      <article class="feature feature-wide"><div><p class="eyebrow"><span></span> Passende Daten</p><h2>Börsenplatz und Zeitraum bleiben berücksichtigt.</h2><p>Die Kursdaten beziehen sich auf die ausgewählte Börse. Das in der URL enthaltene Startdatum wird mit dem angeforderten Chart-Zeitraum abgeglichen.</p></div><div class="code-sample"><small>JSON-Konfiguration</small><code>"url": "https://api.onvista.de/..."</code><code>"datePath": "$.datetimeLast[*]"</code><code>"closePath": "$.last[*]"</code></div></article>
+      <article class="feature"><span class="feature-icon">⌁</span><h3>Direkt im Arbeitsablauf</h3><p>Kein separates Entwicklerwerkzeug und keine manuelle Suche nach der richtigen Anfrage.</p></article>
+      <article class="feature"><span class="feature-icon">⎘</span><h3>Einfach kopieren</h3><p>Die angezeigten Werte lassen sich unmittelbar in Portfolio Performance übernehmen.</p></article>
+    </section>
+
+    <section class="section privacy" id="datenschutz">
+      <div><p class="eyebrow"><span></span> Lokal und nachvollziehbar</p><h2>Deine Finanzdaten bleiben bei dir.</h2></div>
+      <div class="privacy-list">
+        <p><strong>Keine Datenerhebung</strong><span>Die Erweiterung sammelt, verkauft oder überträgt keine persönlichen Daten.</span></p>
+        <p><strong>Kein Benutzerkonto</strong><span>Installation und Nutzung funktionieren ohne Registrierung.</span></p>
+        <p><strong>Offener Quellcode</strong><span>Die Implementierung kann auf GitHub eingesehen und geprüft werden.</span></p>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-heading centered"><p class="eyebrow"><span></span> Häufig gefragt</p><h2>Gut zu wissen.</h2></div>
+      <div class="faq-list">
+        <details><summary>Was zeigt die Erweiterung an?</summary><p>Die erkannte Kurs-URL sowie die Datums- und Kurspfade, die Portfolio Performance für historische JSON-Kursdaten benötigt.</p></details>
+        <details><summary>Spielt der ausgewählte Börsenplatz eine Rolle?</summary><p>Ja. Die angezeigten Kursdaten beziehen sich auf die bei OnVista gewählte Börse.</p></details>
+        <details><summary>Muss die Erweiterung immer aktiv sein?</summary><p>Nein. Sie besitzt einen Schalter und kann gezielt aktiviert oder deaktiviert werden.</p></details>
+        <details><summary>Werden Depot- oder Browserdaten übertragen?</summary><p>Nein. Laut Datenschutzangabe im Chrome Web Store werden keine Nutzerdaten erhoben oder genutzt.</p></details>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <img src="../images/icon_128x128.png" alt="" width="72" height="72">
+      <h2>Weniger suchen. Schneller importieren.</h2>
+      <p>Die passenden OnVista-Daten für Portfolio Performance direkt im Browser.</p>
+      <a class="button button-primary" href="https://chromewebstore.google.com/detail/onvista-stock-url-finder/bkcokclmgdcggjncokodfgkhalhaplal" target="_blank" rel="noreferrer">＋ Kostenlos zu Chrome hinzufügen</a>
+    </section>
+
+    <section class="other-project">
+      <div><img src="../images/wvoytr-logo-200.png" alt="" width="48" height="48"><span><small>Auch von 7evenk</small><strong>Watched Videos On YouTube Remover</strong></span></div>
+      <a class="button button-secondary" href="watched-videos.html">Projekt ansehen <b>→</b></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><img src="../images/icon_128x128.png" alt="" width="32" height="32"><span>onvista Stock URL Finder</span></div>
+    <p>Entwickelt von <a href="https://github.com/7evenk" target="_blank" rel="noreferrer">7evenk</a> · Nicht mit OnVista oder Portfolio Performance verbunden.</p>
+    <div><a href="https://github.com/7evenk/OnVistaJsonStockUrlFinder" target="_blank" rel="noreferrer">Quellcode</a><a href="https://github.com/7evenk/OnVistaJsonStockUrlFinder/issues" target="_blank" rel="noreferrer">Support</a></div>
+  </footer>
+</body>
+</html>

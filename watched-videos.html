@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="description" content="Remove watched videos from YouTube playlists without losing partially watched videos. Free, private, and open source.">
+  <meta property="og:title" content="Watched Videos On YouTube Remover">
+  <meta property="og:description" content="Clean up YouTube. Keep what matters.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://7evenk.github.io/watched-videos.html">
+  <meta property="og:image" content="https://7evenk.github.io/images/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Watched Videos On YouTube Remover">
+  <meta name="twitter:description" content="Clean up YouTube. Keep what matters.">
+  <meta name="twitter:image" content="https://7evenk.github.io/images/og.png">
+  <link rel="canonical" href="https://7evenk.github.io/watched-videos.html">
+  <link rel="alternate" hreflang="en" href="https://7evenk.github.io/watched-videos.html">
+  <link rel="alternate" hreflang="de" href="https://7evenk.github.io/de/watched-videos.html">
+  <link rel="alternate" hreflang="x-default" href="https://7evenk.github.io/watched-videos.html">
+  <title>Watched Videos On YouTube Remover</title>
+  <link rel="icon" href="images/wvoytr-logo-200.png">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Watched Videos On YouTube Remover",
+    "operatingSystem": "Chrome",
+    "applicationCategory": "BrowserApplication",
+    "description": "Remove watched videos from YouTube playlists while keeping partially watched videos for later.",
+    "url": "https://7evenk.github.io/watched-videos.html",
+    "downloadUrl": "https://chromewebstore.google.com/detail/watched-videos-on-youtube/kfpijemcjneklkhbdhidjfdddkommecm",
+    "isAccessibleForFree": true,
+    "author": { "@type": "Person", "name": "7evenk", "url": "https://github.com/7evenk" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Watched Videos On YouTube Remover home">
+      <img src="images/wvoytr-logo-200.png" alt="" width="36" height="36">
+      <span>Watched Videos On YouTube Remover</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a class="nav-home" href="index.html">All tools</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-github" href="https://github.com/7evenk/WatchedVideosOnYouTubeRemover" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      <a class="language-link" href="de/watched-videos.html" lang="de" hreflang="de">DE</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Free Chrome extension</p>
+        <h1>Clean up YouTube.<br><em>Keep what matters.</em></h1>
+        <p class="hero-lead">Remove watched videos from Watch Later and your own playlists—without deleting the videos you only started.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://chromewebstore.google.com/detail/watched-videos-on-youtube/kfpijemcjneklkhbdhidjfdddkommecm" target="_blank" rel="noreferrer">
+            <span aria-hidden="true">＋</span> Add to Chrome
+          </a>
+          <a class="button button-secondary" href="#demo">See how it works <span aria-hidden="true">↓</span></a>
+        </div>
+        <ul class="trust-list" aria-label="Key benefits">
+          <li>No account</li>
+          <li>No tracking</li>
+          <li>Open source</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration of a playlist cleanup">
+        <div class="browser-card">
+          <div class="browser-bar"><i></i><i></i><i></i><span>youtube.com / playlist</span></div>
+          <div class="playlist-title"><strong>Watch later</strong><small>Playlist cleanup</small></div>
+          <div class="video-row watched"><div class="thumb"><b>100%</b></div><div><strong>Already finished</strong><span>Ready to remove</span></div><mark>✓</mark></div>
+          <div class="video-row partial"><div class="thumb"><b>42%</b></div><div><strong>Continue watching</strong><span>Stays in your playlist</span></div><mark>Keep</mark></div>
+          <div class="video-row watched fading"><div class="thumb"><b>96%</b></div><div><strong>Watched yesterday</strong><span>Ready to remove</span></div><mark>✓</mark></div>
+          <div class="progress-card">
+            <div><strong>Removing watched videos</strong><span>23 of 48 videos processed</span></div>
+            <div class="progress-track"><i></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-strip" aria-label="Product facts">
+      <div><strong>Free</strong><span>Chrome extension</span></div>
+      <div><strong>95%</strong><span>Default threshold</span></div>
+      <div><strong>0</strong><span>Data collected</span></div>
+      <div><strong>100%</strong><span>Open source</span></div>
+    </section>
+
+    <section class="section demo-section" id="demo">
+      <div class="section-heading">
+        <p class="eyebrow"><span></span> The problem, solved</p>
+        <h2>Your playlists should not become a graveyard.</h2>
+        <p>YouTube offers limited cleanup controls. This extension checks the visible watch progress, keeps unfinished videos, and removes only the entries that meet your chosen threshold.</p>
+      </div>
+      <div class="demo-frame">
+        <video controls muted loop playsinline poster="images/og.png">
+          <source src="images/wvoytr-demo-small.mp4" type="video/mp4">
+          Your browser does not support embedded video.
+        </video>
+      </div>
+    </section>
+
+    <section class="section steps" id="how-it-works">
+      <div class="section-heading centered">
+        <p class="eyebrow"><span></span> Three simple steps</p>
+        <h2>From cluttered to clean.</h2>
+      </div>
+      <div class="step-grid">
+        <article><b>01</b><h3>Open a playlist</h3><p>Use Watch Later or one of your own YouTube playlists.</p></article>
+        <article><b>02</b><h3>Choose your threshold</h3><p>Set how much of a video counts as watched. The default is 95%.</p></article>
+        <article><b>03</b><h3>Review and clean</h3><p>Confirm once, follow the progress, and cancel safely whenever needed.</p></article>
+      </div>
+    </section>
+
+    <section class="section feature-grid">
+      <article class="feature feature-wide">
+        <div>
+          <p class="eyebrow"><span></span> Built for real playlists</p>
+          <h2>Long playlist? Take a coffee break.</h2>
+          <p>The extension automatically scrolls through loaded playlist entries and keeps you informed with a clear progress card. Large playlists may take a while because YouTube loads them in batches.</p>
+        </div>
+        <div class="mini-progress"><strong>Loading playlist</strong><span>1,240 videos loaded</span><i></i><small>YouTube is scrolling automatically.</small></div>
+      </article>
+      <article class="feature"><span class="feature-icon">◎</span><h3>Your threshold, your rules</h3><p>Use 95% for skipped outros, 100% for strict cleanup, or any value in between.</p></article>
+      <article class="feature"><span class="feature-icon">↩</span><h3>Partially watched stays</h3><p>Videos below your threshold remain exactly where they are, ready for later.</p></article>
+    </section>
+
+    <section class="section privacy" id="privacy">
+      <div>
+        <p class="eyebrow"><span></span> Privacy by design</p>
+        <h2>Your viewing habits stay in your browser.</h2>
+      </div>
+      <div class="privacy-list">
+        <p><strong>No account required</strong><span>Install it and use it directly on YouTube.</span></p>
+        <p><strong>No analytics or tracking</strong><span>The extension does not collect or sell your data.</span></p>
+        <p><strong>Source code available</strong><span>Inspect the implementation and report issues publicly on GitHub.</span></p>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-heading centered">
+        <p class="eyebrow"><span></span> Frequently asked</p>
+        <h2>Good to know.</h2>
+      </div>
+      <div class="faq-list">
+        <details><summary>Does it work with Watch Later?</summary><p>Yes. Watch Later is supported, along with playlists you can edit.</p></details>
+        <details><summary>Will it delete partially watched videos?</summary><p>Only videos at or above your selected threshold are removed. With the default 95%, a video at 42% stays in your playlist.</p></details>
+        <details><summary>Why does a large playlist take time?</summary><p>YouTube loads playlist entries gradually. The extension scrolls automatically and shows how many entries have loaded before cleanup begins.</p></details>
+        <details><summary>Can I stop the cleanup?</summary><p>Yes. The progress card includes a cancel button, and cancellation stops before the next removal.</p></details>
+        <details><summary>Does it collect my YouTube history?</summary><p>No. There is no account, analytics service, or transfer of your viewing activity.</p></details>
+      </div>
+    </section>
+
+    <section class="section support">
+      <div>
+        <p class="eyebrow"><span></span> Independent and user-supported</p>
+        <h2>Useful enough to save you time?</h2>
+        <p>The extension is free. If it makes your playlists easier to live with, you can support continued maintenance and compatibility with future YouTube changes.</p>
+      </div>
+      <div class="support-actions">
+        <a class="button coffee" href="https://www.buymeacoffee.com/svenknoerzer" target="_blank" rel="noreferrer">☕ Buy me a coffee</a>
+        <a class="button button-secondary" href="https://www.paypal.com/paypalme/svenknoerzer" target="_blank" rel="noreferrer">Support via PayPal</a>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <img src="images/wvoytr-logo-200.png" alt="" width="72" height="72">
+      <h2>A cleaner playlist is one click away.</h2>
+      <p>Keep the unfinished videos. Remove the rest.</p>
+      <a class="button button-primary" href="https://chromewebstore.google.com/detail/watched-videos-on-youtube/kfpijemcjneklkhbdhidjfdddkommecm" target="_blank" rel="noreferrer">＋ Add to Chrome — it’s free</a>
+    </section>
+
+    <section class="other-project">
+      <div><img src="images/icon_128x128.png" alt="" width="48" height="48"><span><small>Also by 7evenk</small><strong>onvista Stock URL Finder</strong></span></div>
+      <a class="button button-secondary" href="onvista.html">View project <b>→</b></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><img src="images/wvoytr-logo-200.png" alt="" width="32" height="32"><span>Watched Videos On YouTube Remover</span></div>
+    <p>Built by <a href="https://github.com/7evenk" target="_blank" rel="noreferrer">7evenk</a> · Not affiliated with YouTube or Google.</p>
+    <div><a href="https://github.com/7evenk/WatchedVideosOnYouTubeRemover" target="_blank" rel="noreferrer">Source</a><a href="https://github.com/7evenk/WatchedVideosOnYouTubeRemover/issues" target="_blank" rel="noreferrer">Support</a></div>
+  </footer>
+</body>
+</html>

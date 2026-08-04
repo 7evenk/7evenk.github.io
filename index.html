@@ -1,248 +1,62 @@
-<!DOCTYPE html>
-<html lang="de">
-
+<!doctype html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-	<title>7evenk.github.io</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-			color: #24292e;
-		}
-
-		a {
-			text-decoration: none;
-			color: black;
-		}
-
-		a span {
-			font-family: Arial, sans-serif;
-			;
-		}
-
-		.container {
-			width: 80%;
-			margin: 0 50px 0 50px;
-			overflow: hidden;
-		}
-
-		header {
-			background: #ffffff;
-			color: #24292e;
-			padding-top: 30px;
-			min-height: 70px;
-			text-align: center;
-		}
-
-		header a {
-			color: #24292e;
-			text-decoration: none;
-			text-transform: uppercase;
-			font-size: 42px;
-		}
-
-		header ul {
-			padding: 0;
-			margin: 0;
-			list-style: none;
-			overflow: hidden;
-		}
-
-		header li {
-			display: inline;
-			padding: 0 20px 0 20px;
-		}
-
-		header #branding h1 {
-			margin: 0;
-		}
-
-		header .highlight,
-		header .current a {
-			font-weight: bold;
-		}
-
-		footer .icons,
-		.copyright {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			list-style: none;
-			padding: 0;
-		}
-
-		footer .icons li a {
-			padding: 0 10px;
-		}
-
-		.flex-container {
-			display: flex;
-		}
-
-
-		.image-container {
-			width: 40%;
-			margin: 50px;
-			cursor: pointer;
-		}
-
-		.image-container img {
-			width: 100%;
-		}
-
-		/* Responsive styles */
-		@media (max-width: 768px) {
-			.container {
-				width: 100%;
-				margin: 0;
-			}
-
-			.flex-container {
-				flex-direction: column;
-				padding:10px;
-			}
-
-			.image-container {
-				width: 100%;
-				margin: 20px 0;
-			}
-		}
-	</style>
-
-	<script>
-		window.onload = function () {
-			var containers = document.querySelectorAll('.image-container');
-			containers.forEach(function (container) {
-				container.addEventListener('click', function () {
-					var overlay = document.getElementById('overlay');
-					var overlayContent = document.getElementById('overlay-content');
-					overlay.style.display = 'block';
-					overlayContent.innerHTML = this.innerHTML;
-				});
-			});
-
-			document.getElementById('overlay').addEventListener('click', function () {
-				this.style.display = 'none';
-			});
-		};
-	</script>
-
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="description" content="Focused, privacy-friendly browser tools by 7evenk that remove friction from everyday workflows.">
+  <meta property="og:title" content="7evenk Tools — Small tools. Less friction.">
+  <meta property="og:description" content="Focused browser tools for cleaner playlists and simpler financial workflows.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://7evenk.github.io/">
+  <meta property="og:image" content="https://7evenk.github.io/images/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://7evenk.github.io/">
+  <link rel="alternate" hreflang="en" href="https://7evenk.github.io/">
+  <link rel="alternate" hreflang="de" href="https://7evenk.github.io/de/">
+  <link rel="alternate" hreflang="x-default" href="https://7evenk.github.io/">
+  <title>7evenk Tools — Small tools. Less friction.</title>
+  <link rel="icon" href="images/wvoytr-logo-200.png">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"CollectionPage","name":"7evenk Tools","description":"A collection of focused, open-source browser tools by 7evenk.","url":"https://7evenk.github.io/","author":{"@type":"Person","name":"7evenk","url":"https://github.com/7evenk"},"hasPart":[{"@type":"SoftwareApplication","name":"Watched Videos On YouTube Remover","url":"https://7evenk.github.io/watched-videos.html"},{"@type":"SoftwareApplication","name":"onvista Stock URL Finder","url":"https://7evenk.github.io/onvista.html"}]}
+  </script>
 </head>
+<body class="collection-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand collection-brand" href="index.html"><span class="brand-mark">7</span><span>7evenk Tools</span></a>
+    <nav aria-label="Main navigation"><a href="#tools">Tools</a><a href="#about">About</a><a href="#support">Support</a><a class="nav-github" href="https://github.com/7evenk" target="_blank" rel="noreferrer">GitHub ↗</a><a class="language-link" href="de/index.html" lang="de" hreflang="de">DE</a></nav>
+  </header>
 
-<body>
-	<header>
-		<div>
-			<div id="branding">
-				<h1><span class="highlight"><a href="index.html">7evenk.github.io</a></h1>
-				<p style="font-style: italic;">Things that simplify and beautify your life</p>
-				<p style="font-style: italic;">I create software and how-tos that get you where you want to go quickly,
-					without you having to rack
-					your brain.</p>
-			</div>
-		</div>
-	</header>
+  <main id="main">
+    <section class="collection-hero">
+      <div><p class="eyebrow"><span></span> Independent software by 7evenk</p><h1>Small tools.<br><em>Less friction.</em></h1><p>Focused browser extensions that fix missing details in products you already use—without accounts, tracking, or unnecessary complexity.</p><a class="button button-primary" href="#tools">Explore the tools ↓</a></div>
+      <div class="collection-orbit" aria-hidden="true"><i></i><i></i><i></i><b>7</b></div>
+    </section>
 
-	<section id="extension1">
-		<div class="flex-container">
-			<div class="image-container">
-				<video style="width: 100%; height: auto; display: block;" loop controls autoplay muted>
-					<source src="images/wvoytr-demo-small.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video>
-			</div>
-			<div class="container">
-				<h1><img style="width: 100px; margin-right: 20px;" src="images/wvoytr-logo-200.png" />Watched Videos On
-					YouTube Remover</h1>
-				<p> YouTube only allows you to remove all watched videos from the Watch Later playlist, not taking
-					progress into account. Videos that have only been partially viewed will also be deleted from the
-					playlist. <br /><br />&#9733; By means of this extension, the fully viewed videos can be deleted
-					automatically from the playlist.
-					<br /><br />&#9733; The partially watched videos remain in the playlist and can be watched at a
-					later time.
-				</p>
-				<p> The extension extends the action menu by the entry "Remove completely watched videos".</p>
-				<p>"The 'Watch Later' playlist on YouTube employs a lazy loading technique, meaning that it loads
-					content as needed rather than all at once. Therefore, this extension operates based on the
-					entries that have already been loaded. It doesn't automatically load all entries in the 'Watch
-					Later' playlist. For the extension to consider more videos, you would need to manually scroll
-					down through your playlist to load more entries."</p>
+    <section class="tools-section" id="tools">
+      <div class="tools-heading"><div><p class="eyebrow"><span></span> Available now</p><h2>Tools built around real annoyances.</h2></div><p>Each project stays narrow, understandable, and useful. More tools will join this collection over time.</p></div>
+      <div class="product-grid">
+        <article class="product-card youtube-product">
+          <div class="product-card-top"><img src="images/wvoytr-logo-200.png" alt="" width="64" height="64"><span>Chrome extension</span></div>
+          <div class="product-preview youtube-preview"><div><b>Watch later</b><small>Playlist cleanup</small></div><p><i>100%</i><span>Already finished</span><mark>Remove</mark></p><p><i class="blue">42%</i><span>Continue watching</span><mark class="keep">Keep</mark></p></div>
+          <div class="product-copy"><h3>Watched Videos On YouTube Remover</h3><p>Remove watched videos from YouTube playlists while keeping unfinished videos for later.</p><ul><li>Adjustable threshold</li><li>Visible progress</li><li>Private by design</li></ul><a class="card-link" href="watched-videos.html">Explore Watched Videos <span>→</span></a></div>
+        </article>
+        <article class="product-card onvista-product">
+          <div class="product-card-top"><img src="images/icon_128x128.png" alt="" width="64" height="64"><span>Chrome extension</span></div>
+          <div class="product-preview finance-preview"><div><b>OnVista course data</b><small>Portfolio Performance</small></div><code>$.datetimeLast[*]</code><code>$.last[*]</code><i></i></div>
+          <div class="product-copy"><h3>onvista Stock URL Finder</h3><p>Find OnVista course URLs and JSON paths for Portfolio Performance directly in your browser.</p><ul><li>Direct workflow</li><li>Exchange-aware data</li><li>No data collection</li></ul><a class="card-link" href="onvista.html">Explore OnVista Finder <span>→</span></a></div>
+        </article>
+        <article class="product-card future-product"><div class="future-symbol">＋</div><div class="product-copy"><span class="coming-soon">The collection grows</span><h3>Something useful comes next.</h3><p>A small tool should solve one concrete problem exceptionally well. Future projects will follow the same principle.</p><a class="card-link" href="https://github.com/7evenk" target="_blank" rel="noreferrer">Follow development on GitHub <span>↗</span></a></div></article>
+      </div>
+    </section>
 
-				<div><a href="https://chrome.google.com/webstore/detail/watched-videos-on-youtube/kfpijemcjneklkhbdhidjfdddkommecm"
-						class="fab fa-chrome" target="_blank"><span style="padding-left:10px;">Chrome Web
-							Store</span></a></div>
-				<div><a href="https://github.com/7evenk/WatchedVideosOnYouTubeRemover" class="fab fa-github"
-						target="_blank"><span style="padding-left:10px;">GitHub</span></a></div>
-			</div>
-		</div>
-	</section>
+    <section class="principles" id="about"><div><p class="eyebrow"><span></span> A simple standard</p><h2>Useful first.<br>Quiet by default.</h2></div><div class="principle-grid"><article><b>01</b><h3>One clear purpose</h3><p>No feature piles. Every tool starts with a specific problem and stays focused.</p></article><article><b>02</b><h3>Privacy without ceremony</h3><p>No account or tracking unless a feature genuinely cannot work without it.</p></article><article><b>03</b><h3>Built in the open</h3><p>Source code, issues, changes, and known limitations are visible on GitHub.</p></article></div></section>
 
-	<section id="extension2">
-		<div class="flex-container">
-			<div class="container">
-				<h1><img style="width: 100px; margin-right: 20px;"
-						src="images/icon_128x128.png" />onvista Json Stock
-					Url Finder for Portfolio Performance</h1>
-				Mit dieser Erweiterung können Sie die notwendigen Informationen zur Darstellung der historischen Daten
-				(JSON) in Portfolio Performance direkt auf der OnVista-Website anzeigen lassen.
-				<br /><br />
+    <section class="section support collection-support" id="support"><div><p class="eyebrow"><span></span> User-supported work</p><h2>Help small tools stay useful.</h2><p>The extensions are free. If one saves you time, you can support maintenance and compatibility.</p></div><div class="support-actions"><a class="button coffee" href="https://www.buymeacoffee.com/svenknoerzer" target="_blank" rel="noreferrer">☕ Buy me a coffee</a><a class="button button-secondary" href="https://www.paypal.com/paypalme/svenknoerzer" target="_blank" rel="noreferrer">Support via PayPal</a></div></section>
+  </main>
 
-				<b>Hauptmerkmale</b> <br /><br />
-
-				&#9733; Aktivierbarer Schalter: Die Erweiterung verfügt über einen Schalter, mit dem Sie die
-				Funktionalität je nach Bedarf aktivieren oder deaktivieren können. <br /><br />
-
-				&#9733; Dialoganzeige: Sobald ein neuer Chart auf onvista angefordert wird und die Funktion aktiviert
-				ist, bspw. durch Klick auf ein neues Zeitintervall, zeigt die Erweiterung einen Dialog mit den zur
-				Darstellung der historischen Daten in Portfolio Performance notwendigen Informationen an.<br /><br />
-
-				&#9733; Einfache Integration: Die in dem Dialog angezeigten Informationen können einfach kopiert und in
-				Portfolio Performance eingefügt werden.<br /><br />
-				</p>
-
-				<div><a href="https://chrome.google.com/webstore/detail/onvista-stock-url-finder/bkcokclmgdcggjncokodfgkhalhaplal"
-						class="fab fa-chrome" target="_blank"><span style="padding-left:10px;">Chrome Web
-							Store</span></a></div>
-				<div><a href="https://github.com/7evenk/OnVistaJsonStockUrlFinder"
-						class="fab fa-github" target="_blank"><span style="padding-left:10px;">GitHub</span></a></div>
-			</div>
-			<div class="image-container">
-				<img src="images/screenshot_1280x800.png" />
-			</div>
-
-		</div>
-
-		<footer>
-			<ul class="icons">
-				<li><a href="https://github.com/7evenk" class="fab fa-github" target="_blank" title="GitHub"><span
-							class="label"></span></a></li>
-
-
-				<li><a href="https://www.buymeacoffee.com/svenknoerzer" target="_blank"><svg
-							style="height: 26px; display: flex;" role="img" viewBox="0 0 24 24"
-							xmlns="http://www.w3.org/2000/svg">
-							<title>Buy Me A Coffee</title>
-							<path
-								d="M20.216 6.415l-.132-.666c-.119-.598-.388-1.163-1.001-1.379-.197-.069-.42-.098-.57-.241-.152-.143-.196-.366-.231-.572-.065-.378-.125-.756-.192-1.133-.057-.325-.102-.69-.25-.987-.195-.4-.597-.634-.996-.788a5.723 5.723 0 00-.626-.194c-1-.263-2.05-.36-3.077-.416a25.834 25.834 0 00-3.7.062c-.915.083-1.88.184-2.75.5-.318.116-.646.256-.888.501-.297.302-.393.77-.177 1.146.154.267.415.456.692.58.36.162.737.284 1.123.366 1.075.238 2.189.331 3.287.37 1.218.05 2.437.01 3.65-.118.299-.033.598-.073.896-.119.352-.054.578-.513.474-.834-.124-.383-.457-.531-.834-.473-.466.074-.96.108-1.382.146-1.177.08-2.358.082-3.536.006a22.228 22.228 0 01-1.157-.107c-.086-.01-.18-.025-.258-.036-.243-.036-.484-.08-.724-.13-.111-.027-.111-.185 0-.212h.005c.277-.06.557-.108.838-.147h.002c.131-.009.263-.032.394-.048a25.076 25.076 0 013.426-.12c.674.019 1.347.067 2.017.144l.228.031c.267.04.533.088.798.145.392.085.895.113 1.07.542.055.137.08.288.111.431l.319 1.484a.237.237 0 01-.199.284h-.003c-.037.006-.075.01-.112.015a36.704 36.704 0 01-4.743.295 37.059 37.059 0 01-4.699-.304c-.14-.017-.293-.042-.417-.06-.326-.048-.649-.108-.973-.161-.393-.065-.768-.032-1.123.161-.29.16-.527.404-.675.701-.154.316-.199.66-.267 1-.069.34-.176.707-.135 1.056.087.753.613 1.365 1.37 1.502a39.69 39.69 0 0011.343.376.483.483 0 01.535.53l-.071.697-1.018 9.907c-.041.41-.047.832-.125 1.237-.122.637-.553 1.028-1.182 1.171-.577.131-1.165.2-1.756.205-.656.004-1.31-.025-1.966-.022-.699.004-1.556-.06-2.095-.58-.475-.458-.54-1.174-.605-1.793l-.731-7.013-.322-3.094c-.037-.351-.286-.695-.678-.678-.336.015-.718.3-.678.679l.228 2.185.949 9.112c.147 1.344 1.174 2.068 2.446 2.272.742.12 1.503.144 2.257.156.966.016 1.942.053 2.892-.122 1.408-.258 2.465-1.198 2.616-2.657.34-3.332.683-6.663 1.024-9.995l.215-2.087a.484.484 0 01.39-.426c.402-.078.787-.212 1.074-.518.455-.488.546-1.124.385-1.766zm-1.478.772c-.145.137-.363.201-.578.233-2.416.359-4.866.54-7.308.46-1.748-.06-3.477-.254-5.207-.498-.17-.024-.353-.055-.47-.18-.22-.236-.111-.71-.054-.995.052-.26.152-.609.463-.646.484-.057 1.046.148 1.526.22.577.088 1.156.159 1.737.212 2.48.226 5.002.19 7.472-.14.45-.06.899-.13 1.345-.21.399-.072.84-.206 1.08.206.166.281.188.657.162.974a.544.544 0 01-.169.364zm-6.159 3.9c-.862.37-1.84.788-3.109.788a5.884 5.884 0 01-1.569-.217l.877 9.004c.065.78.717 1.38 1.5 1.38 0 0 1.243.065 1.658.065.447 0 1.786-.065 1.786-.065.783 0 1.434-.6 1.499-1.38l.94-9.95a3.996 3.996 0 00-1.322-.238c-.826 0-1.491.284-2.26.613z" />
-						</svg></a></li>
-				<li><a href="https://www.paypal.com/paypalme/svenknoerzer" class="fab fa-paypal" target="_blank"
-						title="PayPal"><span class="label"></span></a></li>
-			</ul>
-			<ul class="copyright">
-				<li>&copy; 7evenk</li>
-			</ul>
-		</footer>
-
-		<div id="overlay"
-			style="display: none; position: fixed; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.5); z-index: 2; cursor: pointer;">
-			<div id="overlay-content"
-				style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 90%; max-height: 90%;">
-			</div>
-		</div>
+  <footer><div class="brand collection-brand"><span class="brand-mark small">7</span><span>7evenk Tools</span></div><p>Focused tools, built independently.</p><div><a href="#tools">Tools</a><a href="https://github.com/7evenk" target="_blank" rel="noreferrer">GitHub</a></div></footer>
 </body>
-
 </html>
