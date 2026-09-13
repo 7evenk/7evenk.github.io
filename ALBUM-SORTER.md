@@ -14,3 +14,5 @@ The promotional illustration was generated using Imagegen for the extension proj
 Local verification: product page and privacy notice rendered in the browser; image loads, privacy navigation and viewport overflow checked. No extension behavior changes are included here. The existing GitHub Pages hosting is retained; no additional hosting service, tracking, external fonts or scripts are introduced.
 
 Publishing requires a fine-grained PAT scoped specifically to `7evenk/7evenk.github.io`, stored only in Git Credential Manager through Agent Foundation's `tools/codex-github-bootstrap.ps1`. GitHub CLI calls must use `tools/gh-repo.ps1`. The repository-specific credential was configured through the bootstrap and repository access was verified before publication. Verify the public URLs after the GitHub Pages deployment completes.
+
+English and German product and privacy pages are available with matching EN/DE navigation links. The German homepage links to the German product page. The extension interface remains English. Language navigation, translated content, local links and the mobile layout were checked in the browser.
