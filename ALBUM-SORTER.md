@@ -7,7 +7,7 @@ Requested on September 13, 2026: add an English product page and a public privac
 - Product stylesheet: `album-sorter.css`
 - Assets: `images/album-sorter-*`
 
-The product is marked Coming soon until its store listing is publicly available. Do not advertise an install link before checking publication. The extension repository remains private and is not used as a public support destination. The website does not display a developer email address. Support is directed to the Chrome Web Store; confidential inquiries should use the developer contact details provided there. Install and support controls remain explicitly unavailable until the listing is published. Once it is public, replace the disabled install buttons with its verified URL and enable the support link after checking support visibility.
+Version 0.1.3 was published on September 14, 2026. The public Chrome Web Store listing and its support-hub link were verified in the browser. English and German product pages now provide active install and support links. The extension repository remains private; public support uses the Chrome Web Store. No developer email address is displayed on this website.
 
 The promotional illustration was generated using Imagegen for the extension project. The demo screenshot uses fictional album names, counts and illustrations with the real controls. No private album photographs or account screenshots were copied. See the extension repository's `assets/store/README.md` for provenance and reproduction details.
 
