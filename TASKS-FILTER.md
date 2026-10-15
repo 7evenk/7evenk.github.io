@@ -10,11 +10,11 @@ Task: Add the new extension to the existing 7evenk Tools website, 2026-10-14.
 - German privacy statement: `/de/google-tasks-filter-privacy.html`
 - Product cards in both home pages, collection structured data and sitemap entries.
 
-Reuse the shared styles and a product-specific blue accent. The icon comes from extension v0.5.1. The screenshot uses the actual runtime controls on a synthetic fixture; it contains no personal task data.
+Reuse the shared styles and a product-specific blue accent. The icon comes from extension v0.5.2. The screenshot uses the actual runtime controls on a synthetic fixture; it contains no personal task data.
 
 ## Publication status
 
-Extension version 0.5.1 is a development build. No Store URL or public source link is advertised. The extension repository is private. Publishing these website pages does not publish the extension.
+Extension version 0.5.2 is a development build. No Store URL or public source link is advertised. The extension repository is private. Publishing these website pages does not publish the extension.
 
 Before announcing availability, verify the unpacked extension in Chrome and Edge. After confirmed Web Store publication, add the real installation/support links, developer contact, current release status and any updated privacy details in both languages.
 
@@ -22,8 +22,10 @@ Before announcing availability, verify the unpacked extension in Chrome and Edge
 
 Check local asset/page/anchor links, JSON-LD and sitemap XML. Inspect product and privacy pages in desktop and 390px mobile layouts, language switching, navigation and sample image loading. Keep unrelated website files unchanged.
 
-Version 0.5.1 uses header search and an overlaid control/results dropdown below the header field. The demo screenshot shows this layout with synthetic data. Search updates immediately on input; narrow headers move the field into the dropdown.
+Version 0.5.2 uses header search and an overlaid control/results dropdown below the header field. The demo screenshot shows this layout with synthetic data. Search updates immediately on input; narrow headers move the field into the dropdown.
 
-Issue: https://github.com/7evenk/google-tasks-filter/issues/1. Version 0.5.1 adds subtle original-row match outlines during search and an eight-second target frame after a jump, dismissible with Escape. Future changes are tracked with GitHub Issues.
+Issue: https://github.com/7evenk/google-tasks-filter/issues/1. Version 0.5.0 adds subtle original-row match outlines during search and an eight-second target frame after a jump, dismissible with Escape. Future changes are tracked with GitHub Issues.
 
 Issue #2: https://github.com/7evenk/google-tasks-filter/issues/2. Version 0.5.1 paints the complete inset frame above the native opaque task surface, preserving pointer access to task controls.
+
+Issue #3: https://github.com/7evenk/google-tasks-filter/issues/3. Candidate 0.5.2 adds localized Store metadata and a voluntary support link. Product and privacy pages disclose this click-only navigation; the support anchor is support-development. Store submission remains pending.
