@@ -14,9 +14,9 @@ Reuse the shared styles and a product-specific blue accent. The icon comes from 
 
 ## Publication status
 
-Extension version 0.5.2 is a development build. No Store URL or public source link is advertised. The extension repository is private. Publishing these website pages does not publish the extension.
+The owner confirmed publication of extension 0.5.2 on October 16, 2026. Public listing: https://chromewebstore.google.com/detail/google-tasks-filter/fklpjehchlecbjnjcmckldmklohnfdje. English/German product pages and collection pages advertise availability and Store install/support links. The extension repository remains private.
 
-Before announcing availability, verify the unpacked extension in Chrome and Edge. After confirmed Web Store publication, add the real installation/support links, developer contact, current release status and any updated privacy details in both languages.
+Publication was confirmed by the owner; this website update does not independently certify Chrome/Edge runtime behavior. Support and developer contact are available through the Store listing.
 
 ## Verification
 
@@ -29,3 +29,5 @@ Issue: https://github.com/7evenk/google-tasks-filter/issues/1. Version 0.5.0 add
 Issue #2: https://github.com/7evenk/google-tasks-filter/issues/2. Version 0.5.1 paints the complete inset frame above the native opaque task surface, preserving pointer access to task controls.
 
 Issue #3: https://github.com/7evenk/google-tasks-filter/issues/3. Candidate 0.5.2 adds localized Store metadata and a voluntary support link. Product and privacy pages disclose this click-only navigation; the support anchor is support-development. Store submission remains pending.
+
+Release availability update tracked in https://github.com/7evenk/7evenk.github.io/issues/6. The previously pending Store submission notes above are historical.
