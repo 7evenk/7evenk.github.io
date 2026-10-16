@@ -210,3 +210,5 @@ footer div:last-child { display: flex; gap: 20px; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+.planner-preview{background:linear-gradient(135deg,#183426,#252236)}.planner-preview p{font-size:42px;letter-spacing:8px;margin:20px 0}.planner-preview small{color:#a9d7c1}
